@@ -73,6 +73,16 @@ Give a quick Intro!
 - Moderen web browser
 - Google account
 
+## Regression Project
+
+[Boston House Dataset](https://www.kaggle.com/c/boston-housing)
+
+Looking at this data how do we know that regression will be a good choice? Why not Classification?
+
+
+### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1iTyvQoTwPYp5Vdi1xv-vLaQI6NKIdG_Z) <<<
+
+
 ## Classification Project
 
 [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
