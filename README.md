@@ -455,7 +455,7 @@ An opensource library to get started with computer vision and image manipulation
 Looking at this data how do we know that regression will be a good choice? Why not Classification?
 
 
-### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1MlnhYzxanrUoD5FRp2-b6aX_F9e6lrfs) <<<
+### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1iTyvQoTwPYp5Vdi1xv-vLaQI6NKIdG_Z) <<<
 
 
 ## Classification Project
@@ -464,7 +464,7 @@ Looking at this data how do we know that regression will be a good choice? Why n
 
 Looking at this data how do we know that Classification will be a good choice? Why not Regression?
 
-### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/1X-lhBr1yrhVME_IISx2MbjkvG6mqyg3D) <<<
+### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/19JiCDODOUBd51zt-3zS6Na0idjwV4N3R) <<<
 
 
 
