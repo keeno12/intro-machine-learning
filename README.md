@@ -73,6 +73,13 @@ Give a quick Intro!
 - Moderen web browser
 - Google account
 
+## Classification Project
+
+[Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+Looking at this data how do we know that Classification will be a good choice? Why not Regression?
+
+### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/19JiCDODOUBd51zt-3zS6Na0idjwV4N3R) <<<
 
 
 # What is Machine Learning:
