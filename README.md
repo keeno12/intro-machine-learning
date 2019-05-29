@@ -85,7 +85,7 @@ Looking at this data how do we know that regression will be a good choice? Why n
 
 ## Classification Project
 
-[Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+[Iris Flower Dataset KNN Workbook](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 
 Looking at this data how do we know that Classification will be a good choice? Why not Regression?
 
