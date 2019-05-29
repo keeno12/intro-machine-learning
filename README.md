@@ -1,27 +1,17 @@
 # Intro to Machine Learning
 
 
-### Get to this repo! URL: [ml.sage.codes](https://github.com/sagecodes/intro-machine-learning) 
-
-
 Brought to you by Galvanize. Learn more about the way we teach at [galvanize.com](http://galvanize.com).
 
 
-Learn more Python & Data Science with Galvanize Data Science Premium Prep! Currently free if you sign up now! [http://bit.ly/2u0cahU](http://bit.ly/2u0cahU)
+### FAQs:
 
-Get to this repo by typing in URL: **ml.sage.codes**
-
-### FAQs: 
-
-- WIFI: `Galvanize Guest Seattle` | Password is posted on the wall
-- Bathrooms: Behind you down the hall to the left
-- Kitchen outside back classroom door with Coffee & Tea!
-- Snacks + water in back of room
+- WIFI: `g|Events` | Password is `learningcommunity`
 
 
 ## Setting up your computer
 * A web browser to see what we're working on as others see it (Recommend Google Chrome: [chrome.google.com] (http://chrome.google.com))
-* We will be using Google Colab for this workshop so make a Google account if you don't already have one. 
+* We will be using Google Colab for this workshop so make a Google account if you don't already have one.
 * Open this github Repo to follow along
 
 
@@ -29,7 +19,7 @@ Get to this repo by typing in URL: **ml.sage.codes**
 
 A super friendly introduction to Machine Learning No previous experience expected, but knowing some python will help!
 
-You can't learn EVERYTHING in ~2 hours, especially when it comes to Machine Learning! But you can learn enough to get excited and comfortable to keep working and learning on your own! 
+You can't learn EVERYTHING in ~2 hours, especially when it comes to Machine Learning! But you can learn enough to get excited and comfortable to keep working and learning on your own!
 
 - This course is for absolute beginners
 - Ask Questions!
@@ -43,22 +33,20 @@ We're not going to focus on the math behind the models. We're going to focus mor
 
 ## About me:
 
-Hello I'm [Sage Elliott](http://sageelliott.com/). I'm a Technology Evangelist here at Galvanize! For the past decade I've worked as a software and hardware engineer with Startups and Agencies in Seattle, WA and Melbourne, FL. I love making things with technology! 
+Hello I'm Keenan Olsen. I'm a Technology Evangelist here at Galvanize!
 
 I Originally got into Machine Learning by solving a manufacturing problem at my last job with computer vision, and I think its one of the coolest fields!
 
-**Note:** I'm not a Galvanize Instructor, they're way better at teaching than I am!
-
-- Website: [sageelliott.com](http://sageelliott.com/)
-- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
-- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
-- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
+**Note:** I'm not a Galvanize Instructor
+- Twitter: [@KeenanOlsen](https://twitter.com/@keenanolsen)
+- LinkedIn: [Keenan Olsen](https://www.linkedin.com/in/keenanolsen/)
+- Email: [keenan.olsen@galvanize.com](mailto:keeenan.olsen@galvanize.com)
 
 Reach out to me if interested in:
 
-- breaking into the tech industry 
+- breaking into the tech industry
 - learning resources
-- meetup recommendations 
+- meetup recommendations
 - learning more about Galvanize
 - giving me suggestions for events!
 - being friends
@@ -75,28 +63,22 @@ Give a quick Intro!
 
 ----
 
-#### FAQs Again for anyone who just came in: 
+#### FAQs Again for anyone who just came in:
 
-- WIFI: `Galvanize Guest Seattle` | Password is posted on the wall
-- Bathrooms: Behind you down the hall to the left
-- Kitchen outside back classroom door with Coffee & Tea!
-- Snacks + water in back of room
+- WIFI: `g|Events` | Password is `learningcommunity`
 
-##### Get to this repo! 
-
-URL: ml.sage.codes
 
 ##### Setup
 
-- Moderen web browser 
-- Google account 
+- Moderen web browser
+- Google account
 
 
 
 # What is Machine Learning:
 
 
-To put it very simply Machine Learning can usually be thought of using a statistical model built based on a dataset to solve a problem. 
+To put it very simply Machine Learning can usually be thought of using a statistical model built based on a dataset to solve a problem.
 
 Instead of explicitly programming an algorithm to do a specific task, we let it "learn" from data to find patterns and inference.
 
@@ -111,7 +93,7 @@ More and more companies using making decisions with data are using machine learn
 
 - Product Recommendations
 - Amazon GO Computer Vision
-- Alexa 
+- Alexa
 - Delivery Robots
 
 
@@ -150,7 +132,7 @@ We talked about a some examples above from big companies we probably all know of
 #### Healthcare
 
 - Cancer Detection
-- X-Ray diagnostic 
+- X-Ray diagnostic
 
 #### Smart Home Devices
 
@@ -169,11 +151,11 @@ We talked about a some examples above from big companies we probably all know of
 
 - Crop monitoring & planning
 
-#### Supply Chain 
+#### Supply Chain
 
 - Sourcing and Shipping Automation
 
-#### Manufacturing 
+#### Manufacturing
 
 - Quality Assurance
 - Design
@@ -198,16 +180,16 @@ Supervised Learning uses a dataset that is labeled. In this context imagine havi
 
 Here we have features(sepal length (cm), etc) and a label(Flower Species)
 
-| sepal length (cm)  | sepal width (cm)  | petal length (cm)  | petal width (cm)  |  Species | 
+| sepal length (cm)  | sepal width (cm)  | petal length (cm)  | petal width (cm)  |  Species |
 |---|---|---|---|---|
-| 5.1 |  3.5 |  1.4 |  0.2 | setosa| 
-| 5.7	| 2.9 | 4.2 | 1.3 | versicolor | 
+| 5.1 |  3.5 |  1.4 |  0.2 | setosa|
+| 5.7	| 2.9 | 4.2 | 1.3 | versicolor |
 | 7.7 | 3.0  | 6.1  | 2.3  |  virginica |
 
 We could use a full dataset with data like above to make a prediction of the flower species given only the Petal and Sepal Lengths.
 
 
-Another good example of supervised learning is a email spam filter. 
+Another good example of supervised learning is a email spam filter.
 
 Say we have a bunch of emails in our dataset and they all have a label of either `spam` or `not_spam`. We could then train a supervised learning model to look at all of those emails and pick up patterns that show up in the spam emails. There are probably certain words or formatting that repeat them selves. If you've ever looked in your email spam folder you can probably pick out some of those things yourself!
 
@@ -225,14 +207,14 @@ We could be given a new flower measurement and we want to try to label it with t
 |---|---|---|---|
 | 5.1 |  3.5 |  1.4 |  0.2 |  
 
-According to a model I trained it thinks this would be `versicolor`. 
+According to a model I trained it thinks this would be `versicolor`.
 
 
 ### Regression
 
-Instead of predicting a label like classification, Regression predicts a value. 
+Instead of predicting a label like classification, Regression predicts a value.
 
-This example has features `crime rate`, `Zoning`, `rooms`, `square footage` and a value `price`. 
+This example has features `crime rate`, `Zoning`, `rooms`, `square footage` and a value `price`.
 
 | crime rate | Zoning  | rooms  | square footage  | price |
 |---|---|---|---|---|
@@ -240,7 +222,7 @@ This example has features `crime rate`, `Zoning`, `rooms`, `square footage` and 
 | .2 |  2 |  3 |  3000 |  50000 |
 | .3 |  4 |  7 |  1800 |  150000 |
 
-Unlike the classification example where we tried to predict what group features belonged to, we want to predict what value the features would have. This could be a number ranging anywhere! 
+Unlike the classification example where we tried to predict what group features belonged to, we want to predict what value the features would have. This could be a number ranging anywhere!
 
 Given a list of new features from a house like below, we would then want to find out how much that house is worth by predicting a number value.
 
@@ -250,7 +232,7 @@ Given a list of new features from a house like below, we would then want to find
 
 
 Some other examples to think about Predicting:
-- Stock price 
+- Stock price
 - Age
 
 
@@ -263,7 +245,7 @@ Unsupervised Learning uses a dataset that is not labeled and gains insight about
 
 
 
-### Clustering 
+### Clustering
 
 A common way of using unsupervised learning is clustering.
 
@@ -272,7 +254,7 @@ A common way of using unsupervised learning is clustering.
 This picture shows an example of visualizing the [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) we talked about before. We can see that there are features that relate to each species. If we didn't have those labels we could use unsupervised learning to create clusters separating the groups out that would probably look pretty similar to this. We could then add a label to those clusters.
 
 
-An example to think about is if you have a large dataset of customers. Maybe you would like to segment them out to cluster similar customers. 
+An example to think about is if you have a large dataset of customers. Maybe you would like to segment them out to cluster similar customers.
 
 
 ## Semi-Supervised Machine Learning
@@ -282,7 +264,7 @@ Uses mixed dataset labeled with labeled and unlabeled to train the model and a c
 Semi Supervised Machine learning can be important to look into if you don't have enough labeled data to create a good model. Labeling and acquired labeled data can be extremely expensive / time consuming so developing a model that can use both types of data is super intriguing!  
 
 
-Imagine trying to label every piece of information you get from a self driving car! You have a constant video feed, Lidar, and other sensors. 
+Imagine trying to label every piece of information you get from a self driving car! You have a constant video feed, Lidar, and other sensors.
 
 
 
@@ -302,23 +284,23 @@ A couple examples:
 
 ## Deep Learning
 
-Deep Learning is a subset of Machine Learning. 
+Deep Learning is a subset of Machine Learning.
 
-It uses layers of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network) and can learn from data to change the weights of the neurons. 
+It uses layers of [Artificial Neural Networks](https://en.wikipedia.org/wiki/Artificial_neural_network) and can learn from data to change the weights of the neurons.
 
-[A Neural Network Playground - TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.24541&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) is a great place to start tinkering around and learning more about Artificial Neural Networks! 
+[A Neural Network Playground - TensorFlow](https://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.24541&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false) is a great place to start tinkering around and learning more about Artificial Neural Networks!
 
 
-Deep Learning is killing it at recognising and generating complicated patterns. 
+Deep Learning is killing it at recognizing and generating complicated patterns.
 
 - Computer vision (CV)
 	- Self Driving cars
 	- Amazon Go
-		
+
 - Natural Language Processing (NLP)
 	- Alexa
 	- Siri
- 
+
 - Generative Adversarial Networks (GANs)
 	- [NVIDIA’s Hyperrealistic Face Generator](https://medium.com/syncedreview/gan-2-0-nvidias-hyperrealistic-face-generator-e3439d33ebaf)
 	- video game Character or level generation
@@ -341,7 +323,7 @@ Some of the common models. Having an idea of what these do and applications they
 
 Typically used for **regression**
 
-Generally regression problems predict a value on a continuous spectrum 
+Generally regression problems predict a value on a continuous spectrum
 
 #### [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
 
@@ -353,7 +335,7 @@ Used to predict binary outputs (yes, no | true, false | Pass, fail)
 
 looking for probability above a certain threshold
 
-if .5 
+if .5
 
 #### [K-Nearest Neighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
 
@@ -368,7 +350,7 @@ k-NN finds the `k` number of nearest data points and makes a `educated` guess ba
 
 Typically used for **classification**
 
-Maybe an over simplification but a Decision tree can be thought of like a bunch of if statements. 
+Maybe an over simplification but a Decision tree can be thought of like a bunch of if statements.
 
 You've probably seen flow chats before with different paths to take depending on the data.
 
@@ -395,25 +377,25 @@ https://scikit-learn.org/stable/tutorial/machine_learning_map/
 
 We can only scratch the surface of Machine Learning tonight in this workshop, so this is by no means everything you need to know, but it should help you get started!
 
-##### fitting
+##### Fitting
 
 Training your model on your dataset. You'll see terms like fit and train used interchangeably
 
 
-##### [overfitting](https://en.wikipedia.org/wiki/Overfitting)
+##### [Overfitting](https://en.wikipedia.org/wiki/Overfitting)
 
 relies too much the relationships in training data, Fails to work correctly on new data.
 
 
 
-##### [underfitting](https://en.wikipedia.org/wiki/Overfitting#Underfitting)
+##### [Underfitting](https://en.wikipedia.org/wiki/Overfitting#Underfitting)
 
 Fails to learn the relationships in the training data to be used on new data
 
 
-##### [cross validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
+##### [Cross Validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
 
-Validate that your machine learning model is working on well on data that it was not trained on. 
+Validate that your machine learning model is working on well on data that it was not trained on.
 
 We trained the model, but need to validate that its working as expected. A common way is to split the dataset into training and testing(We'll do this soon in python).
 
@@ -502,7 +484,7 @@ Do you have an awesome idea you want to use try using machine learning? What is 
 
 Best way to learn is solving a problem you're excited about!
 
-Use an "ugly" dataset. Understanding how to make a good dataset is important. 
+Use an "ugly" dataset. Understanding how to make a good dataset is important.
 
 Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datasets/index.html). Use them and apply what you learned today!
 
@@ -510,15 +492,6 @@ Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datase
 
 - [Galvanize Data Science Prep Course](http://bit.ly/gprepdata) - FREE | study at your own pace
 
-
-
-## Upcoming Events!
-
-Visit the [Learn to code Seattle](https://www.meetup.com/Learn-Code-Seattle/) meetup for all upcoming events.
-
-[Python 101](https://www.eventbrite.com/e/intro-to-programming-with-python-tickets-60954016103)
-
-More Coming in June!
 
 # What is Galvanize?
 
@@ -553,26 +526,9 @@ Learn while working with out evening part-time classes
 
 #### Co-working Space
 
-[work in our building!](https://www.galvanize.com/entrepreneur)
+[Work in our building!](https://www.galvanize.com/entrepreneur)
 
 
 ## Questions
 
 Please feel free to reach out to me with any questions! Let me know what you're planning to do next and how I can help!
-
-
-- Website: [sageelliott.com](http://sageelliott.com/)
-- Twitter: [@sagecodes](https://twitter.com/@sagecodes)
-- LinkedIn: [sageelliott](https://www.linkedin.com/in/sageelliott/) 
-- Email: [sage.elliott@galvanize.com](mailto:sage.elliott@galvanize.com)
-
-
-
-
-
-
-
-
-
-
-
