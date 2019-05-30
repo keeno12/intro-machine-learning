@@ -70,7 +70,7 @@ Give a quick Intro!
 
 ##### Setup
 
-- Moderen web browser
+- Modern web browser
 - Google account
 
 ## Regression Project
