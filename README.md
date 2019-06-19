@@ -73,6 +73,16 @@ Give a quick Intro!
 - Modern web browser
 - Google account
 
+## Classification Project
+
+[Iris Flower Dataset KNN Workbook](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+
+Looking at this data how do we know that Classification will be a good choice? Why not Regression?
+
+### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/19JiCDODOUBd51zt-3zS6Na0idjwV4N3R) <<<
+
+
+
 ## Regression Project
 
 [Boston House Dataset](https://www.kaggle.com/c/boston-housing)
@@ -82,14 +92,6 @@ Looking at this data how do we know that regression will be a good choice? Why n
 
 ### >>> [Boston House price Linear Regression Notebook](https://colab.research.google.com/drive/1iTyvQoTwPYp5Vdi1xv-vLaQI6NKIdG_Z) <<<
 
-
-## Classification Project
-
-[Iris Flower Dataset KNN Workbook](https://en.wikipedia.org/wiki/Iris_flower_data_set)
-
-Looking at this data how do we know that Classification will be a good choice? Why not Regression?
-
-### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/19JiCDODOUBd51zt-3zS6Na0idjwV4N3R) <<<
 
 
 # What is Machine Learning:
