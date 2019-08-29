@@ -81,7 +81,10 @@ Looking at this data how do we know that Classification will be a good choice? W
 
 ### >>> [Iris K-Nearest Neighbors](https://colab.research.google.com/drive/19JiCDODOUBd51zt-3zS6Na0idjwV4N3R) <<<
 
+## NLP and Sentiment Analysis Project
+Let's see how these comments sentimize 
 
+### >>> [NLP and Webscraping Notebook] (https://colab.research.google.com/drive/13XQcVSYGeE2JN4YWyL5jUCZIyATJyS5_#scrollTo=W_nk7ZqMsg5R) <<<
 
 ## Regression Project
 
@@ -522,30 +525,6 @@ Scikit Learn has more built in [datasets](https://scikit-learn.org/stable/datase
 - Co-Working
 - Events
 - Enterprise
-
-
-## Galvanize Classes
-
-#### Immersive Bootcamp
-
-Transform your career with our 13 week immersive programs
-
-- [Software Engineer](http://bit.ly/seawebdev) - 6/3/19 - 10/11/19
-- [Data Science](http://bit.ly/seadatascience) - 8/19/19 - 11/15/19
-
-
-#### Part-Time Courses
-
-Learn while working with out evening part-time classes
-
-
-- [Python Fundamentals](http://bit.ly/seapyfun) - 6/4/19 - 7/11/19
-
-- [Data Analytics](http://bit.ly/seadataa) - 6/3/19 - 8/21/19
-
-#### Co-working Space
-
-[Work in our building!](https://www.galvanize.com/entrepreneur)
 
 
 ## Questions
