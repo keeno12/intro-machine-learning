@@ -84,7 +84,7 @@ Looking at this data how do we know that Classification will be a good choice? W
 ## NLP and Sentiment Analysis Project
 Let's see how these comments sentimize 
 
-### >>> [NLP and Webscraping Notebook] (https://colab.research.google.com/drive/13XQcVSYGeE2JN4YWyL5jUCZIyATJyS5_#scrollTo=W_nk7ZqMsg5R) <<<
+### >>> [NLP and Webscraping Notebook](https://colab.research.google.com/drive/13XQcVSYGeE2JN4YWyL5jUCZIyATJyS5_#scrollTo=W_nk7ZqMsg5R) <<<
 
 ## Regression Project
 
